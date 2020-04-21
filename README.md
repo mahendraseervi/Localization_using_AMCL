@@ -34,4 +34,35 @@ $ apt-get upgrade -y
 $ cd /home/workspace/catkin_ws/src
 $ git clone https://github.com/mahendraseervi/Localization_using_AMCL.git
 ```
+### Step 3 Clone the Package in src
+```
+$ cd /home/workspace/catkin_ws/src
+$ git clone https://github.com/mahendraseervi/Localization_using_AMCL.git
+```
+### Step 4 Build the Packages
+```
+$ catkin_make
+$ source devel/setup.bash
+```
+### Step 5 Launch the gazebo world with robot model
+```
+$ roslaunch my_robot world.launch 
+```
+### Step 6 Launch the amcl_localization launch files
+```
+$ roslaunch amcl_localization amcl.launch
+```
+### Step 7 Launch the rviz and save the required configuration
+```
+$ rosrun rviz rviz -d amclocalization_rviz.rviz 
+```
+### Step 7 use the teleop_twist_keyboard to move the robot and localize it
+```
+$ rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+```
+Now, you should see Gazebo and rviz launching with robot localized in the map
+
+## Images :
+### Turtlebot world :
+![](images/gazebo.png)
 
