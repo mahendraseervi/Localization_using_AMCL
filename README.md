@@ -1,5 +1,5 @@
 # Localization_using_AMCL
-Using ROS AMCL package to accurately localize a mobile robot inside a map in the Gazebo simluation environment
+Using ROS AMCL package to accurately localize a mobile robot inside a map in the Gazebo simluation environment.
 
 ## Project Aim:
 1. Create a ROS package that launches a custom robot model in a custom Gazebo world
