@@ -64,9 +64,9 @@ Now, you should see Gazebo and rviz launching with robot localized in the map
 ### Robot in the gazebo simulation world:
 ![](images/Selection_003.png)
 
-### robot localized in rviz (zoomed in):
+### Robot localized in rviz (zoomed in):
 ![](images/Selection_004.png)
 
-### robot localized in rviz (zoomed ou):
+### Robot localized in rviz (zoomed ou):
 ![](images/Selection_002.png)
 
