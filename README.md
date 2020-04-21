@@ -34,11 +34,6 @@ $ apt-get upgrade -y
 $ cd /home/workspace/catkin_ws/src
 $ git clone https://github.com/mahendraseervi/Localization_using_AMCL.git
 ```
-### Step 3 Clone the Package in src
-```
-$ cd /home/workspace/catkin_ws/src
-$ git clone https://github.com/mahendraseervi/Localization_using_AMCL.git
-```
 ### Step 4 Build the Packages
 ```
 $ catkin_make
@@ -63,6 +58,15 @@ $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 Now, you should see Gazebo and rviz launching with robot localized in the map
 
 ## Images :
-### Turtlebot world :
-![](images/gazebo.png)
+### Map created using pgm_map_creator ros package:
+![](images/Selection_001.png)
+
+### Robot in the gazebo simulation world:
+![](images/Selection_003.png)
+
+### robot localized in rviz (zoomed in):
+![](images/Selection_004.png)
+
+### robot localized in rviz (zoomed ou):
+![](images/Selection_002.png)
 
